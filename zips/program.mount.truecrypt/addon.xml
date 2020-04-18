@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.mount.truecrypt" name="Mount TrueCrypt Container" version="2.1" provider-name="xptsp">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension> 
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Mount TrueCrypt Files</summary>
+		<description>Mount and Unmount TrueCrypt and/or VeraCrypt Containers within Kodi on Linux-based OSes.  Windows-based TrueCrypt is not supported by this addon!</description>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>fanart.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
