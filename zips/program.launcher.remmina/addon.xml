@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="program.launcher.remmina" name="Remmina" version="1.0" provider-name="XPtsp">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux windx</platform>
+		<summary lang="en">Kodi Launches Remmina</summary>
+		<summary lang="es">Kodi Inicia Remmina</summary>
+		<summary lang="fr">Raccourci Remmina pour Kodi</summary>
+		<description lang="en">Addon for Kodi to launch Remmina, a Remote Desktop Client for Ubuntu.</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<language>en</language>
+		<source>https://github.com/xptsp/Kodi-Launches-Remmina-Addon/</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+			<screenshot>fanart.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
