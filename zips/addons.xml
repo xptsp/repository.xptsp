@@ -78,8 +78,7 @@
 	</extension>
 </addon>
 
-<addon id="service.ncid.call.notifications" name="Call Notifications" version="1.0"
-       provider-name="mablae">
+<addon id="service.ncid.call.notifications" name="Call Notifications" version="1.0" provider-name="xptsp">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.twisted"/>
