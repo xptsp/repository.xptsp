@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.xptsp" name="XPtsp Addon Repository" version="1.0" provider-name="xptsp">
+<addon id="repository.xptsp" name="XPtsp Addon Repository" version="2.0" provider-name="xptsp">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/xptsp/repository.xptsp/master/zips/addons.xml</info>
