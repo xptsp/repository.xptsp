@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.kodi.launches.emulationstation" name="EmulationStation" version="1.1.7" provider-name="BrosMakingSoftware">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux windx</platform>
+		<summary lang="en">Kodi Launches EmulationStation</summary>
+		<summary lang="es">Kodi Inicia EmulationStation</summary>
+		<summary lang="fr">Raccourci EmulationStation pour Kodi</summary>
+		<description lang="en">Addon for Kodi to launch EmulationStation.[CR]EmulationStation is a cross-platform graphical front-end for emulators with controller navigation.[CR]Install and configure EmulationStation before using this launcher, for instructions and downloads, go to http://emulationstation.org/</description>
+		<description lang="es">Addon de Kodi para iniciar EmulationStation.[CR]EmulationStation es una interfaz gráfica multi-plataforma para emuladores con navegación por medio de controles (mandos).[CR]Instala y configura EmulationStation antes de usar este inicializador, para instrucciones y descargas, visite http://emulationstation.org/</description>
+		<description lang="fr">Addon pour lancer EmulationStation à partir de Kodi[CR] EmulationStation est une interface graphique multi-plateforme pour les émulateurs utilisant un controlleur pour la navigation. [CR] Installez et configurez EmulationStation avec d'utiliser ce raccourci, pour des instructions et le lien de téléchargement, consultez http://emulationstation.org/</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<language>en fr es</language>
+		<source>https://github.com/BrosMakingSoftware/Kodi-Launches-EmulationStation-Addon/</source>
+		<website>https://github.com/BrosMakingSoftware/Kodi-Launches-EmulationStation-Addon/blob/master/README.md#kodi-launches-emulationstation-addon</website>
+		<forum></forum>
+		<email>diego.hernandez.perez.cr@gmail.com</email>
+		<news>
+1.1.7
+ - Fixed License file to match the GitHub's license auto-detect feature
+
+1.1.6
+ - Corrected xterm not found error message which displayed wrong text
+
+1.1.5
+ - Added Spanish translations for Advance settings
+ - Updated French translation file to keep untranslated strings
+ - Updated English and French translations to capitalize some names
+ - Updated Addon screenshots
+ - Updated documentation
+
+1.1.4
+ - Added missing French translations to addon.xml
+
+1.1.3
+ - Before reenabling powersavings we now send Down key to Kodi to wake it up. Otherwise it will go to sleep when parameter is set.
+
+1.1.2
+ - Updated translation files headers
+
+1.1.1
+ - Use xterminal to start emulationstation to provide ttl for emulators in linux
+ - Add workaround - exit fullscreen Kodi during emulationstation - to fix emulators loading behind Kodi
+ - Add option to turn off powersavings while running emulationstation
+ - Added configuration options for xterm executable, switch for workaround and switch for powersavings
+ - Added french translations
+        </news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>fanart.jpg</screenshot>
+			<screenshot>resources/es-screenshots/theming_list.png</screenshot>
+			<screenshot>resources/es-screenshots/201_new_themes.png</screenshot>
+			<screenshot>resources/es-screenshots/snes_art.png</screenshot>
+			<screenshot>resources/es-screenshots/nes_art.png</screenshot>
+			<screenshot>resources/es-screenshots/fba_art.png</screenshot>
+			<screenshot>resources/es-screenshots/gba_art.png</screenshot>
+			<screenshot>resources/es-screenshots/gbc_art.png</screenshot>
+			<screenshot>resources/es-screenshots/gen_art.png</screenshot>
+			<screenshot>resources/es-screenshots/n64_art.png</screenshot>
+			<screenshot>resources/es-screenshots/neogeo_art.png</screenshot>
+			<screenshot>resources/es-screenshots/psx_art.png</screenshot>
+			<screenshot>resources/es-screenshots/saturn_art.png</screenshot>
+			<screenshot>resources/addon-screenshots/Addon-Selected.jpg</screenshot>
+			<screenshot>resources/addon-screenshots/Addon-Selected-Information.jpg</screenshot>
+			<screenshot>resources/addon-screenshots/Addon-in-French.jpg</screenshot>
+			<screenshot>resources/addon-screenshots/Addon-in-Spanish.jpg</screenshot>
+			<screenshot>resources/addon-screenshots/Addon-Settings.jpg</screenshot>
+			<screenshot>resources/addon-screenshots/Addon-Settings-Advance.jpg</screenshot>
+			<screenshot>resources/addon-screenshots/Addon-Settings-Edit-Executable.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
